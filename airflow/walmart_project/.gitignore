@@ -1,7 +1,10 @@
-
-target/
-dbt_packages/
-logs/
 .env
-.user.yml
-profiles.yml
+.venv/
+.vscode/
+airflow/logs/
+airflow/config/
+**/target/
+**/dbt_packages/
+**/profiles.yml
+**/.user.yml
+__pycache__/
